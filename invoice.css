@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	height: 100vh;
+}
+
+.main-container{
+	width: 100%;
+	height: 75%;
+	position: relative;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	background-color: dodgerblue;
+	padding: 30px;
+	position: relative;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+}
+
+.company-contact, .company-address {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	justify-content: space-around;
+	font-family: cursive;
+}
+
+.company-contact a {
+	text-decoration: none;
+	color: white;
+}
+
+.company-contact .fas {
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.company-name {
+	font-size: 18px;
+	font-family: monospace;
+}
+
+.recipent-info {
+	width: 95%;
+	padding: 30px 30px 60px 30px;
+	display: flex;
+	justify-content: space-between;
+	background-color: ;
+	border-bottom: 5px solid dodgerblue;
+	margin: 0px auto;
+}
+
+.recipent-details, .recipent-others, .header-total-amount {
+	display: flex;
+	flex-direction: column;
+	justify-content: ;
+}
+
+.recipent-details h3 {
+	margin-bottom: 10px;
+	font-weight: normal;
+	color: slategray;
+}
+
+.recipent-details span {
+	font-weight: bolder;
+	padding: 2px 0px;
+	font-size: 14px
+}
+
+.recipent-others span, .header-total-amount span {
+	margin-bottom: 5px;
+	color: slategray;
+}
+
+.recipent-others div {
+	font-weight: bolder;
+	margin-bottom: 8px;
+	font-size: 14px
+}
+
+.header-total-amount .amount {
+	display: flex;
+}
+
+#nairaSymbol, #amount {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.main {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: ;
+	position: relative;
+}
+
+.main h3 {
+	display: flex;
+	justify-content: space-around;
+	text-transform: uppercase;
+}
+
+.main h3 div {
+	text-align: center;
+	width: 16.5%;
+}
+
+#items {
+	width: 100%;
+	display: ;
+}
+
+#itemsInfo {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 15px auto;
+	justify-content: space-around;
+}
+
+#itemsInfo div {
+	text-align: center;
+	width: 16.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.total-amount-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 30px;
+}
+
+.total-amount-txt {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	background-color: skyblue;
+	justify-content: center;
+}
+
+.total-amount-txt span {
+	color: blue;
+	text-transform: capitalize;
+	width: 100%;
+	padding: 0px 0px 10px 0px;
+}
+
+.total-amount-info {
+	width: 50%;
+	background-color: midnightblue;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-size: 15px;
+}
+
+.total-amount-info-list {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0px;
+}
+
+.total-amount-info-list span {
+	width: 40%;
+	display: flex;
+	justify-content: end;
+	text-transform: capitalize;
+}
+
+.amount-area {
+	display: flex;
+	width: 40%;
+	justify-content: end;
+}
+
+.amount-area div {
+	
+}
+
